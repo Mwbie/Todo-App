@@ -1,0 +1,53 @@
+body {
+    background: #353f5b;
+  }
+  .container {
+    max-width: 400px;
+    margin-top: 90px;
+  }
+  .search i {
+    position: absolute;
+  }
+  .search {
+    position: relative;
+  }
+  .icon {
+    padding: 10px;
+    left: 0;
+  }
+  .input-field {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #423a6f;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  
+  
+  .filtered{
+    display: none !important;
+  }
+
+.modal{
+  width: 150px !important;
+  height: 20px !important;
+  background-color: #189c2a;
+  position: relative;
+  left: 180px;
+  border-radius: 10px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  transition: all linear 1s;
+  padding: 20px;
+}  
