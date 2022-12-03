@@ -43,7 +43,7 @@ body {
   height: 20px !important;
   background-color: #189c2a;
   position: relative;
-  left: 180px;
+  margin : 0 auto;
   border-radius: 10px;
   font-weight: bolder;
   justify-content: center;
